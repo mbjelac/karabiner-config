@@ -1,12 +1,12 @@
 # Karabiner config file
 
-[Karabiner](https://pqrs.org/osx/karabiner/) is a keyboard mapping utility for MacOS.
+[Karabiner](https://pqrs.org/osx/karabiner/) is a keyboard mapping utility for macOS.
 
 The mappings can be customized with `.json` files.
 
 ## Full Docs
 
-https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-change-control-h-to-delete
+https://pqrs.org/osx/karabiner/json.html
 
 ## Usage
 
