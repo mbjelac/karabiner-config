@@ -97,13 +97,20 @@
 
       {"description": "`", "type": "basic",
           "from": {"key_code": "7","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "grave_accent_and_tilde","modifiers": ["left_option"]}]}
+          "to": [{"key_code": "grave_accent_and_tilde","modifiers": ["left_option"]}]},
 
+      {"description": "<", "type": "basic",
+        "from": {"key_code": "comma","modifiers": {"mandatory": ["right_option"]}},
+        "to": [{"key_code": "grave_accent_and_tilde","modifiers": []}]},
+      {"type": "basic",
+        "from": {"key_code": "grave_accent_and_tilde","modifiers": {"mandatory": []}},
+        "to": []},
+      {"description": ">", "type": "basic",
+        "from": {"key_code": "period","modifiers": {"mandatory": ["right_option"]}},
+        "to": [{"key_code": "grave_accent_and_tilde","modifiers": ["left_shift"]}]},
+      {"type": "basic",
+        "from": {"key_code": "grave_accent_and_tilde","modifiers": {"mandatory": ["left_shift"]}},
+        "to": []}
     ]}
-
-
-
-
-
   ]
 }
