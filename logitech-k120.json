@@ -1,5 +1,5 @@
 {
-  "title": "Logitech on Windows",
+  "title": "Logitech K120",
   "rules": [
 
     { "description": "App Switcher", "manipulators": [
@@ -110,6 +110,30 @@
         "to": [{"key_code": "grave_accent_and_tilde","modifiers": ["left_shift"]}]},
       {"type": "basic",
         "from": {"key_code": "grave_accent_and_tilde","modifiers": {"mandatory": ["left_shift"]}},
+        "to": []}
+    ]},
+
+    { "description": "Caret & Selection", "manipulators": [
+
+      {"description": "Home", "type": "basic",
+        "from": {"key_code": "home","modifiers": {"mandatory": []}},
+        "to": [{"key_code": "left_arrow","modifiers": ["left_command"]}]},
+      {"type": "basic",
+        "from": {"key_code": "left_arrow","modifiers": {"mandatory": ["left_command"]}},
+        "to": []},
+
+      {"description": "End", "type": "basic",
+        "from": {"key_code": "end","modifiers": {"mandatory": []}},
+        "to": [{"key_code": "right_arrow","modifiers": ["left_command"]}]},
+      {"type": "basic",
+        "from": {"key_code": "right_arrow","modifiers": {"mandatory": ["left_command"]}},
+        "to": []},
+
+      {"description": "Select All", "type": "basic",
+        "from": {"key_code": "a","modifiers": {"mandatory": ["left_control"]}},
+        "to": [{"key_code": "a","modifiers": ["left_command"]}]},
+      {"type": "basic",
+        "from": {"key_code": "a","modifiers": {"mandatory": ["left_command"]}},
         "to": []}
     ]}
   ]
