@@ -135,6 +135,12 @@
       {"type": "basic",
         "from": {"key_code": "a","modifiers": {"mandatory": ["left_command"]}},
         "to": []}
-    ]}
+    ]},
+
+    { "description": "Ctrl+C -> Cmd+C (if you use the Clipboard rule and want to kill terminal processes)", "manipulators": [
+      {"type": "basic",
+        "from": {"key_code": "c","modifiers": {"mandatory": ["left_command"]}},
+        "to": [{"key_code": "c","modifiers": ["left_control"]}]}
+      ]}
   ]
 }
