@@ -58,37 +58,37 @@
 
       {"description": "[", "type": "basic",
           "from": {"key_code": "f","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "š","modifiers": ["left_option"]}]},
+          "to": [{"key_code": "open_bracket","modifiers": ["left_option"]}]},
       {"type": "basic",
-          "from": {"key_code": "š","modifiers": {"mandatory": ["left_option"]}},
+          "from": {"key_code": "open_bracket","modifiers": {"mandatory": ["left_option"]}},
           "to": []},
 
       {"description": "]", "type": "basic",
           "from": {"key_code": "g","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "đ","modifiers": ["left_option"]}]},
+          "to": [{"key_code": "close_bracket","modifiers": ["left_option"]}]},
       {"type": "basic",
-          "from": {"key_code": "đ","modifiers": {"mandatory": ["left_option"]}},
+          "from": {"key_code": "close_bracket","modifiers": {"mandatory": ["left_option"]}},
           "to": []},
 
       {"description": "{", "type": "basic",
           "from": {"key_code": "b","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "š","modifiers": ["left_shift","left_option"]}]},
+          "to": [{"key_code": "open_bracket","modifiers": ["left_shift","left_option"]}]},
       {"type": "basic",
-          "from": {"key_code": "š","modifiers": {"mandatory": ["left_shift","left_option"]}},
+          "from": {"key_code": "open_bracket","modifiers": {"mandatory": ["left_shift","left_option"]}},
           "to": []},
 
       {"description": "}", "type": "basic",
           "from": {"key_code": "n","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "đ","modifiers": ["left_shift","left_option"]}]},
+          "to": [{"key_code": "close_bracket","modifiers": ["left_shift","left_option"]}]},
       {"type": "basic",
-          "from": {"key_code": "đ","modifiers": {"mandatory": ["left_shift","left_option"]}},
+          "from": {"key_code": "close_bracket","modifiers": {"mandatory": ["left_shift","left_option"]}},
           "to": []},
 
       {"description": "|", "type": "basic",
           "from": {"key_code": "w","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "ž","modifiers": ["left_shift","left_option"]}]},
+          "to": [{"key_code": "backslash","modifiers": ["left_shift","left_option"]}]},
       {"type": "basic",
-          "from": {"key_code": "ž","modifiers": {"mandatory": ["left_shift","left_option"]}},
+          "from": {"key_code": "backslash","modifiers": {"mandatory": ["left_shift","left_option"]}},
           "to": []},
 
       {"description": "~", "type": "basic",
@@ -97,7 +97,7 @@
 
       {"description": "`", "type": "basic",
           "from": {"key_code": "7","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "<","modifiers": ["left_option"]}]}
+          "to": [{"key_code": "grave_accent_and_tilde","modifiers": ["left_option"]}]}
 
     ]}
 
