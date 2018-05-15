@@ -97,31 +97,25 @@
 
       {"description": "`", "type": "basic",
           "from": {"key_code": "7","modifiers": {"mandatory": ["left_option"]}},
-          "to": [{"key_code": "grave_accent_and_tilde","modifiers": ["left_option"]}]},
+          "to": [{"key_code": "non_us_backslash","modifiers": ["left_option"]}]},
 
-      {"description": "hyphen", "type": "basic",
+      {"description": "<", "type": "basic",
+        "from": {"key_code": "comma","modifiers": {"mandatory": ["right_option"]}},
+        "to": [{"key_code": "non_us_backslash","modifiers": []}]},
+      {"description": ">", "type": "basic",
+        "from": {"key_code": "period","modifiers": {"mandatory": ["right_option"]}},
+        "to": [{"key_code": "non_us_backslash","modifiers": ["left_shift"]}]},
+
+      {"description": "hyphen1", "type": "basic",
           "from": {"key_code": "7","modifiers": {"mandatory": ["left_shift"]}},
           "to": [{"key_code": "hyphen","modifiers": []}]},
-      {"description": "hyphen", "type": "basic",
+      {"description": "hyphen2", "type": "basic",
           "from": {"key_code": "7","modifiers": {"mandatory": ["right_shift"]}},
           "to": [{"key_code": "hyphen","modifiers": []}]},
 
       {"description": "slash", "type": "basic",
           "from": {"key_code": "hyphen","modifiers": {"mandatory": []}},
-          "to": [{"key_code": "7","modifiers": ["left_shift"]}]},
-
-      {"description": "<", "type": "basic",
-        "from": {"key_code": "comma","modifiers": {"mandatory": ["right_option"]}},
-        "to": [{"key_code": "grave_accent_and_tilde","modifiers": []}]},
-      {"type": "basic",
-        "from": {"key_code": "grave_accent_and_tilde","modifiers": {"mandatory": []}},
-        "to": []},
-      {"description": ">", "type": "basic",
-        "from": {"key_code": "period","modifiers": {"mandatory": ["right_option"]}},
-        "to": [{"key_code": "grave_accent_and_tilde","modifiers": ["left_shift"]}]},
-      {"type": "basic",
-        "from": {"key_code": "grave_accent_and_tilde","modifiers": {"mandatory": ["left_shift"]}},
-        "to": []}
+          "to": [{"key_code": "7","modifiers": ["left_shift"]}]}
     ]},
 
     { "description": "Caret & Selection", "manipulators": [
