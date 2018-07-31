@@ -139,7 +139,22 @@
 
       {"description": "slash", "type": "basic",
           "from": {"key_code": "hyphen","modifiers": {"mandatory": []}},
-          "to": [{"key_code": "7","modifiers": ["left_shift"]}]}
+          "to": [{"key_code": "7","modifiers": ["left_shift"]}]},
+
+      {"description": "backslash with left alt", "type": "basic",
+        "from": {"key_code": "q","modifiers": {"mandatory": ["left_option"]}},
+        "to": [{"key_code": "non_us_pound","modifiers": ["left_option"]}]},
+      {"type": "basic",
+        "from": {"key_code": "non_us_pound","modifiers": {"mandatory": ["left_option"]}},
+        "to": []},
+
+      {"description": "backslash with right alt", "type": "basic",
+        "from": {"key_code": "q","modifiers": {"mandatory": ["right_option"]}},
+        "to": [{"key_code": "non_us_pound","modifiers": ["right_option"]}]},
+      {"type": "basic",
+        "from": {"key_code": "non_us_pound","modifiers": {"mandatory": ["right_option"]}},
+        "to": []}
+
     ]},
 
     { "description": "Caret & Selection", "manipulators": [
